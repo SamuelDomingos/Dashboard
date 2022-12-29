@@ -1,0 +1,49 @@
+div.sidebar{
+    width: 20%;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #062d2d;
+}
+
+div.sidebar .logo{
+    background-color: #0d5959;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+div.sidebar .logo h2{
+    color: #4de5e5;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+div.sidebar nav ul li{
+    margin: 1.4rem 0;
+    list-style-type: none;
+}
+
+div.sidebar nav ul li a{
+    transition: 0.3s;
+    font-size: 1.5rem;
+    color: #20dfdf;
+    text-decoration: none;
+}
+
+
+div.sidebar nav ul li span{
+    color: #2050df;
+    transition: 0.3s;
+}
+
+
+div.sidebar nav ul li:hover a{
+    color: #2050df;
+}
+
+div.sidebar nav ul li:hover span{
+    color: #20dfdf;
+}
