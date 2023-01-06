@@ -1,0 +1,60 @@
+.flex{
+    justify-content: flex-end;
+}
+
+.style-icons{
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: .5rem;
+    background-color: #4de5e5;
+    transition: 0.3s;
+    color: #fff;
+    padding: .5rem;
+}
+
+.icon-alerta:hover > .style-icons,
+.style-icons:hover{
+    background-color: #43d0d0;
+}
+
+.nome-usuario{
+    padding-top: 5px;
+    margin-right: 2rem;
+}
+
+.nome-usuario h2{
+    font-weight: 500;
+    color: #4de5e5;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.icon-alerta{
+    position: relative;
+    margin-right: 1rem;
+}
+
+.icon-alerta .alert-number{
+    cursor: pointer;
+    top: -.5rem;
+    right: .1rem;
+    padding: 1px 5px;
+    font-size: .9rem;
+    color: #fff;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.main-content{
+    width: 100%;
+    padding: 1.2rem 0;
+    padding-right: 2rem;
+   background-color: #fff;
+}
+
+.main-content .pensquisa-campo input{
+    padding-left: .5rem;
+    outline: 0;
+    border: 1px solid #4de5e5;
+}

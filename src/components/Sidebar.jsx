@@ -1,6 +1,8 @@
 import {Link} from 'react-router-dom';
 import "./Sidebar.css";
 import {FaAngleDoubleRight} from 'react-icons/fa';
+import Painel from '../pages/Painel';
+import Duvidas from '../pages/Duvidas';
 
 const Sidebar = () => {
   return (

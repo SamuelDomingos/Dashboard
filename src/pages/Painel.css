@@ -1,0 +1,57 @@
+.panel{
+    padding: 1rem;
+}
+
+.panel-introdution-title,
+.panel-introdution-data,
+.component-list{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 0 .5rem;
+    border: 1px solid #4de5e5;
+}
+
+.panel-introdution-title{
+    width: 80%;
+}
+
+.panel-introdution-data{
+    width: 20%;
+}
+
+.panel .panel-introdution h2{
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #4de5e5;
+}
+
+.panel .panel-introdution p{
+    font-size: 1rem;
+}
+
+.panel .component-list{
+    margin: 3rem 1rem;
+}
+
+.component-list .component-list-detail {
+    width: 100%;
+    padding: .5rem 0 1rem 0;
+    margin-bottom: 2rem;
+    justify-content: left;
+    border-bottom: 1px solid #4de5e5;
+}
+
+.component-list .component-list-detail h2{
+    color: #4de5e5;
+    font-size: 1.4rem;
+}
+
+.component-list .component-list-detail .list2{
+    justify-content: center;
+    width: 100%;
+}
+
+.component-list .component-list-detail .list2 h2{
+    margin: 0 2rem;
+}

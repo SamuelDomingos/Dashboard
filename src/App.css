@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto;
 }
 
 .container{
@@ -20,7 +21,10 @@
   justify-content: space-around;
   flex-direction: column;
 }
+.site{
+  width: 80%;
+}
 
 body{
-  background-color: #FAF9FC;
+  background-color: #e9e9e9;
 }

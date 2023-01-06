@@ -1,10 +1,17 @@
+import { Outlet } from 'react-router-dom';
 import './App.css'
-import Sidebar from './components/Sidebar'
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex">
       <Sidebar/>
+
+      <div className="site">
+        <Header/>
+        <Outlet/>
+      </div>
     </div>
   )
 }
