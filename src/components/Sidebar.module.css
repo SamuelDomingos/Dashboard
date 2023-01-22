@@ -1,0 +1,111 @@
+div.sidebar .desktop{
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ef5350;
+}
+
+div.sidebar .mobile{
+    display: none;
+}
+
+div.sidebar .mobile > button{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #ef5350;
+    color: #fff;
+    font-size: 2.9rem;
+    border: 0;
+}
+
+div.sidebar .mobile .mobile_container{
+    position: fixed;
+    top: 0;
+    left: -20%;
+    transition: 0.3s;
+    z-index: 9999;
+    background-color: #ef5350;
+    width: 20%;
+    max-width: 100px;
+    height: 100vh;
+}
+
+div.sidebar .mobile .mobile_container button{
+    font-size: 2.4rem;
+    background: none;
+    border: 0;
+    position: absolute;
+    bottom: 2rem;
+    left: 5vw;
+}
+
+div.sidebar .mobile .mobile_container button svg path{
+    stroke: #fff;
+}
+
+div.sidebar .desktop .links{
+    padding-left: 3rem;
+}
+
+div.sidebar .mobile .links{
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.sidebar .logo{
+    background-color: #c34341;
+    padding: 1.4rem 0;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+div.sidebar .logo h2{
+    color: #efe450;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+div.sidebar .links nav ul li{
+    margin: 1.4rem 0;
+    list-style-type: none;
+}
+
+div.sidebar .links nav ul li a{
+    transition: 0.3s;
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+div.sidebar .links nav ul li span{
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+div.sidebar .links nav ul li:hover a{
+    color: #efe450;
+}
+
+div.sidebar .links nav ul li:hover span{
+    color: #20dfdf;
+}
+
+@media screen and (max-width: 760px) {
+    
+    div.sidebar .desktop{
+        display: none;
+    }
+
+    div.sidebar .mobile{
+        display: inline;
+    }
+}

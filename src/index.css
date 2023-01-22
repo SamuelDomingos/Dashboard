@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+  }
+  
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+::-webkit-scrollbar{
+  width: 1.2rem;
+}
+
+::-webkit-scrollbar-track{
+  border: 1px solid #ef5350;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ef5350;
+  height: 4.65rem;
+}

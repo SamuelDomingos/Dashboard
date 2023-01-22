@@ -1,0 +1,22 @@
+.styles{
+    max-width: 500px;
+}
+
+.bar{
+    width: 50vw;
+}
+
+.Doughnut{
+    width: 30vw;
+}
+
+@media screen and (max-width: 750px){
+
+    .bar{
+        width: 60vw;
+    }
+    
+    .Doughnut{
+        width: 60vw;
+    }
+}

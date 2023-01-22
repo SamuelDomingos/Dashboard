@@ -5,9 +5,10 @@ import {BsSearch, BsFillBellFill} from "react-icons/bs";
 const Header = () => {
   return (
         <div className="main-content">
+
             <header className="flex">
 
-                <div className="nome-usuario flex">
+                <div className="nome-usuario">
                   <h2>fsdomingoss@gmail.com</h2>
                 </div>
 

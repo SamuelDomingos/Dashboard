@@ -1,20 +1,26 @@
-.flex{
+
+header{
+    width: 100%;
+}
+
+header.flex{
     justify-content: flex-end;
+    align-items: center;
 }
 
 .style-icons{
     cursor: pointer;
     font-size: 2rem;
     margin-right: .5rem;
-    background-color: #4de5e5;
+    background-color: #fff;
     transition: 0.3s;
-    color: #fff;
+    color: #ef5350;
     padding: .5rem;
 }
 
 .icon-alerta:hover > .style-icons,
 .style-icons:hover{
-    background-color: #43d0d0;
+    background-color: #efe450;
 }
 
 .nome-usuario{
@@ -24,7 +30,7 @@
 
 .nome-usuario h2{
     font-weight: 500;
-    color: #4de5e5;
+    color: #efe450;
     margin-left: 1.5rem;
     font-size: 1.2rem;
 }
@@ -50,11 +56,31 @@
     width: 100%;
     padding: 1.2rem 0;
     padding-right: 2rem;
-   background-color: #fff;
+   background-color: #ef5350;
 }
 
 .main-content .pensquisa-campo input{
     padding-left: .5rem;
     outline: 0;
-    border: 1px solid #4de5e5;
+    border: 1px solid #be3f3d;
+}
+
+
+@media screen and (max-width: 760px) {
+    
+    .main-content .flex{
+        flex-direction: row;
+    }
+
+    }
+
+@media screen and (max-width: 610px) {
+    
+    .nome-usuario{
+        display: none;
+    }
+
+    .main-content .pensquisa-campo input{
+        max-width: 100px;
+    }
 }

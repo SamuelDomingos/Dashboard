@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App flex">
+    <div className="App flex App-flex">
       <Sidebar/>
 
       <div className="site">

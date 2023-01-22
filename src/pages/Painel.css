@@ -1,14 +1,8 @@
 .panel{
     padding: 1rem;
 }
-
-.panel-introdution-title,
-.panel-introdution-data,
-.component-list{
-    background-color: #fff;
-    padding: 1rem;
-    margin: 0 .5rem;
-    border: 1px solid #4de5e5;
+.panel h2{
+    color: #ef5350;
 }
 
 .panel-introdution-title{
@@ -23,7 +17,6 @@
     padding-bottom: .5rem;
     font-size: 1.5rem;
     font-weight: 500;
-    color: #4de5e5;
 }
 
 .panel .panel-introdution p{
@@ -31,27 +24,50 @@
 }
 
 .panel .component-list{
-    margin: 3rem 1rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    justify-items: center;
 }
 
-.component-list .component-list-detail {
-    width: 100%;
-    padding: .5rem 0 1rem 0;
-    margin-bottom: 2rem;
-    justify-content: left;
-    border-bottom: 1px solid #4de5e5;
+.panel-dashboard h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0 2rem 0;
 }
 
-.component-list .component-list-detail h2{
-    color: #4de5e5;
-    font-size: 1.4rem;
-}
-
-.component-list .component-list-detail .list2{
+.panel-dashboard .grafics{
     justify-content: center;
-    width: 100%;
+    align-items: center;
 }
 
-.component-list .component-list-detail .list2 h2{
-    margin: 0 2rem;
+.panel-dashboard .grafics div{
+    margin: 0 1.5rem;
 }
+
+.component-list > h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.component-list .list-pokemons{
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+    
+    
+        .panel-introdution-title{
+            width: 100%;
+        }
+
+        .panel-introdution-data{
+            width: 100%;
+        }
+
+        .panel-dashboard .grafics{
+            justify-content:space-between;
+        }
+
+    }
