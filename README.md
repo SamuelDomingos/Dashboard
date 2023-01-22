@@ -12,6 +12,8 @@ Projeto focado na criação de um dashboard
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
+- [chartjs}(https://www.chartjs.org/docs/latest/)
+- [API Pokeapi](https://pokeapi.co/)
 
 # Licença
 
